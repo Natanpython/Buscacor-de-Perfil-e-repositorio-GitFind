@@ -1,0 +1,102 @@
+.conteudo{
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.background{
+    height: 90vh;
+    position: absolute;
+    left: 0;
+}
+.pesquisa{
+    display: flex;
+}
+.info{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #fff;
+}
+input{
+    border: 1px solid #99999999;
+    border-radius: 12px;
+    min-width: 250px;
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+
+    padding: 10px;
+    margin-right: 12px;
+    width: 85%;
+}
+button{
+    border: 1px solid #99999999;
+    border-radius: 12px;
+    color: #fff;
+    background: transparent;
+    font-size: 18px;
+
+    padding: 10px;
+    margin-right: 12px;
+    
+}
+.infoPerfil{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #999999;
+}
+.profile{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 128px;
+    
+}
+.profile h3{
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.profile p {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.descricao{
+    margin-top:30px;
+    font-weight: 400;
+}
+hr{
+    margin-top: 30px;
+}
+.tituloReposi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 700;
+    
+}
+/* .projetos{
+    margin: 20px;
+}
+.projetos .titu{
+    font-weight: 400;
+    margin: 20px 0;
+}
+.projetos p{
+    color: #999999;
+    font-size: 17px;
+    font-weight: 400;
+} */
+/* a{
+    list-style: none;
+    color: #539BF5;
+    text-decoration: none;
+    
+} */
